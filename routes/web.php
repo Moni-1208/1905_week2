@@ -33,4 +33,4 @@ Route::post('Api/login','Api\TestController@login');
 Route::post('Api/UserList','Api\TestController@UserList')->middleware('List');
 
 // 接口测试 调用接口
-Route::post('/goods','Test\GoodsController@goods');
+Route::get('/goods','Test\GoodsController@goods');

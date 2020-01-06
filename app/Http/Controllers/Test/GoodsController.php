@@ -9,7 +9,7 @@ class GoodsController extends Controller
 {
     public function goods()
     {
-    	print_r($_GET).echo "<hr>";
-    	echo "当前查询id为".$_GET['id'];
+    	print_r($_GET);
+    	echo "当前查询id为".$_GET['id'];	
     }
 }
