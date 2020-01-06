@@ -31,3 +31,6 @@ Route::post('Api/reg','Api\TestController@reg');
 Route::post('Api/login','Api\TestController@login');
 // 接口测试 登陆
 Route::post('Api/UserList','Api\TestController@UserList')->middleware('List');
+
+// 接口测试 调用接口
+Route::post('/goods','Test\GoodsController@goods');
